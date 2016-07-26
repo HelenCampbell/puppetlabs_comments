@@ -1,0 +1,8 @@
+file { '<%= comment_dir %>':
+  ensure => directory,
+}
+comments::personal { '<%= user %>':
+  comment => "<%= comment %>",
+  path => "#<%= comment_dir %>",
+  filename => "<%= comment_file %>",
+}
