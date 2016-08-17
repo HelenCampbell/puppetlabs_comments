@@ -5,5 +5,3 @@ The module uses a utility named beaker_testmodeSwitcher. This utility allows a u
 
 The module is designed as a training tool. It's to show a very simple puppet module written in puppet DSL, and how the acceptance tests structure is defined.
 
-Changes :
-* Ive made a change to train with GIT
